@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
+
+body {
+	margin: 0;
+	font-size: 18px;
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+.header {
+	width: 100%;
+	min-height: 400px;
+	background: url(../images/bg-header-desktop.png) top no-repeat;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.header .overlay {
+	width: 65%;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header .overlay h1 {
+	color: hsl(210, 10%, 33%);
+}
+.header .overlay p {
+	color: hsl(201, 11%, 66%);
+}
+.header .overlay .actions {
+	display: flex;
+	justify-content: center;
+}
+.header .overlay .actions button {
+	width: 180px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+.header .overlay .actions button:first-child {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 0px 5px 0px hsl(171, 66%, 44%);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.header .overlay .actions button:last-child {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 0px 5px 0px hsl(233, 100%, 69%);
+}
+
+/* section1 */
+
+.section1 {
+	width: 100%;
+	min-height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section1 .section1-head {
+	width: 75%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section1 .section1-head h2 {
+	color: hsl(210, 10%, 33%);
+}
+.section1 .section1-head p {
+	color: hsl(201, 11%, 66%);
+}
+.section1 .section1-body {
+	display: flex;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+.section1 .section1-body .img {
+	position: relative;
+	width: 100%;
+}
+.section1 .section1-body .img img {
+	position: absolute;
+	top: 0;
+	left: -100px;
+}
+
+.section1 .section1-body .details {
+	width: 50%;
+	padding: 30px;
+}
+.section1 .section1-body .details div h3 {
+	color: hsl(210, 10%, 33%);
+}
+.section1 .section1-body .details div p {
+	color: hsl(201, 11%, 66%);
+}
+
+/* section2 */
+
+.section2 {
+	width: 100%;
+	min-height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+}
+.section2 .section2-head {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section2 .section2-head h2 {
+	color: hsl(210, 10%, 33%);
+}
+.section2 .section2-head p {
+	color: hsl(201, 11%, 66%);
+}
+
+/* section3 */
+
+.section3 {
+	width: 100%;
+	min-height: 430px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+}
+.section3 .section3-head {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section3 .section3-head h2 {
+	color: hsl(210, 10%, 33%);
+}
+.section3 .section3-head p {
+	color: hsl(201, 11%, 66%);
+}
+
+.section3 .section3-body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+.section3 .section3-body div {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+/* section4 */
+.section4 {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 80px 0 80px 0;
+}
+
+/* section5 */
+.section5 {
+	width: 100%;
+	min-height: 430px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.section5 .section5-head {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.section5 .section5-head h2 {
+	color: hsl(210, 10%, 33%);
+}
+.section5 .section5-head p {
+	color: hsl(201, 11%, 66%);
+}
+.section5 .section5-body {
+	display: flex;
+	justify-content: center;
+}
+.section5 .section5-body button {
+	width: 180px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	margin-bottom: 15px;
+}
+.section5 .section5-body button:first-child {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 0px 5px 0px hsl(171, 66%, 44%);
+	margin-right: 10px;
+}
+.section5 .section5-body button:last-child {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 0px 5px 0px hsl(233, 100%, 69%);
+}
+
+/* footer */
+footer {
+	min-height: 50px;
+	background-color: hsla(202, 11%, 66%, 0.562);
+	padding: 20px;
+	display: flex;
+}
+footer .logo {
+	width: 30%;
+	text-align: center;
+}
+footer .footer-links {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+footer .footer-links div {
+	display: flex;
+	flex-direction: column;
+}
+footer .footer-links div a {
+	margin-bottom: 10px;
+	color: hsl(210, 10%, 33%);
+	text-decoration: none;
+	width: fit-content;
+}
+
+footer .social-media {
+	width: 20%;
+	display: flex;
+}
+footer .social-media li {
+	list-style: none;
+	margin-right: 15px;
+}
+
+/* responsive */
+@media only screen and (max-width: 375px) {
+	.header {
+		background: url(../images/bg-header-mobile.png) top no-repeat;
+	}
+	.header .overlay .actions {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section1 .section1-body {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section1 .section1-body .img {
+		width: 90%;
+		min-height: 230px;
+		margin-bottom: 50px;
+	}
+	.section1 .section1-body .img img {
+		width: 100%;
+		left: 0;
+	}
+	.section1 .section1-body .details {
+		width: 90%;
+		padding: 30px;
+		min-height: 650px;
+		text-align: center;
+	}
+	.section2 {
+		min-height: 400px;
+	}
+	.section2-body {
+		width: 90%;
+	}
+	.section2-body img {
+		width: 100%;
+	}
+	.section3 .section3-body {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section3 .section3-body div {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.section4 {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section4 img {
+		margin-bottom: 40px;
+	}
+	.section5 .section5-head {
+		width: 90%;
+	}
+	.section5 .section5-body {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header .overlay .actions button:first-child,
+	.section5 .section5-body button:first-child {
+		margin-right: 0px;
+	}
+	footer {
+		flex-direction: column;
+		align-items: center;
+	}
+	footer .logo {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	footer .footer-links {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	footer .footer-links div a {
+		width: unset;
+		text-align: center;
+	}
+	footer .social-media {
+		width: 100%;
+		padding-inline-start: 0px;
+		justify-content: center;
+	}
+}
